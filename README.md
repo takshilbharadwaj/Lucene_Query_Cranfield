@@ -53,25 +53,25 @@ viii. results_EnglishAnalyzer_TFIDF.txt
 i.
 ```
 cd trec_eval-9.0.7/
-./trec_eval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_SimpleAnalyzer_BM25.txt
-./trec_eval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_SimpleAnalyzer_TFIDF.txt
-./trec_eval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_CustomAnalyzer_BM25.txt
-./trec_eval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_CustomAnalyzer_TFIDF.txt
-./trec_eval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_StandardAnalyzer_BM25.txt
-./trec_eval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_StandardAnalyzer_TFIDF.txt
-./trec_eval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_EnglishAnalyzer_BM25.txt
-./trec_eval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_EnglishAnalyzer_TFIDF.txt
+./trec_eval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_SimpleAnalyzer_BM25.txt
+./trec_eval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_SimpleAnalyzer_TFIDF.txt
+./trec_eval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_CustomAnalyzer_BM25.txt
+./trec_eval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_CustomAnalyzer_TFIDF.txt
+./trec_eval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_StandardAnalyzer_BM25.txt
+./trec_eval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_StandardAnalyzer_TFIDF.txt
+./trec_eval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_EnglishAnalyzer_BM25.txt
+./trec_eval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_EnglishAnalyzer_TFIDF.txt
 ```
 This will show all the evaluation values obtained using trec_eval.
 
 ii. For filtered set of values, to fetch map value and p 0.5 and p 10, following set of commands to be executed.
 ```
-./trec_eval -m map -m P.5,10 ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_SimpleAnalyzer_BM25.txt
-./trec_eval -m map -m P.5,10 ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_SimpleAnalyzer_TFIDF.txt
-./trec_eval -m map -m P.5,10 ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_CustomAnalyzer_BM25.txt
-./trec_eval -m map -m P.5,10 ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_CustomAnalyzer_TFIDF.txt
-./trec_eval -m map -m P.5,10 ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_StandardAnalyzer_BM25.txt
-./trec_eval -m map -m P.5,10 ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_StandardAnalyzer_TFIDF.txt
-./trec_eval -m map -m P.5,10 ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_EnglishAnalyzer_BM25.txt
-./trec_eval -m map -m P.5,10 ../lucene_querying_cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../lucene_querying_cranfield/Lucene_Querying_Cranfield/results_EnglishAnalyzer_TFIDF.txt
+./trec_eval -m map -m P.5,10 ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_SimpleAnalyzer_BM25.txt
+./trec_eval -m map -m P.5,10 ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_SimpleAnalyzer_TFIDF.txt
+./trec_eval -m map -m P.5,10 ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_CustomAnalyzer_BM25.txt
+./trec_eval -m map -m P.5,10 ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_CustomAnalyzer_TFIDF.txt
+./trec_eval -m map -m P.5,10 ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_StandardAnalyzer_BM25.txt
+./trec_eval -m map -m P.5,10 ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_StandardAnalyzer_TFIDF.txt
+./trec_eval -m map -m P.5,10 ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_EnglishAnalyzer_BM25.txt
+./trec_eval -m map -m P.5,10 ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/resource_files/QRelsCorrectedforTRECeval ../Lucene_Query_Cranfield/Lucene_Querying_Cranfield/results_EnglishAnalyzer_TFIDF.txt
 ```
