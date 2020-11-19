@@ -9,7 +9,7 @@ NOTE : The java classes for each projects are commented for clearer description.
 
 1. Clone the repository in a target folder.
 ```
-git clone https://github.com/TBagZzz/lucene_querying_cranfield.git
+git clone https://github.com/TBagZzz/Lucene_Query_Cranfield.git
 ```
 
 2. Download and build trec_eval-9.0.7 inside the same target folder.
